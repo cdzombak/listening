@@ -15,7 +15,7 @@ listening [OPTIONS]
 - `-i {4,6}`, `--ip {4,6}`: Specifies IPv4 or IPv6. Default: none (both).
 - `-h`, `--help`: Print help and exit.
 - `-v`, `--version`: Print version and exit.
-- `-d DEBUG`, `--debug DEBUG`: Whether to print the lsof/netstat command to be executed to stderr. Default: False.
+- `-d DEBUG`, `--debug DEBUG`: Whether to print (to stderr) the `lsof`/`netstat` command to be executed. Default: False.
 
 ## Installation
 

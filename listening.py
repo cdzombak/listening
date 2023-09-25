@@ -54,7 +54,8 @@ if __name__ == "__main__":
         "--port",
         type=int,
         default=None,
-        help="Filter to processes listening on the given port. Default: none (all ports).",
+        help="Filter to processes listening on the given port. "
+        "Default: none (all ports).",
     )
     parser.add_argument(
         "-t",
@@ -77,7 +78,8 @@ if __name__ == "__main__":
         "--debug",
         type=str2bool,
         default="false",
-        help="Whether to print the lsof/netstat command to be executed to stderr. Default: False.",
+        help="Whether to print (to stderr) the lsof/netstat command to "
+        "be executed. Default: False.",
     )
     parser.add_argument(
         "-v",
