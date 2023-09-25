@@ -6,3 +6,4 @@
 --license LGPL3
 --depends grep
 --depends python3
+--architecture all
