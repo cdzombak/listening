@@ -31,15 +31,15 @@ def cmd_macos(port=None, transport=None, ipv=None):
 
 def cmd_linux(port=None, transport=None, ipv=None):
     if ipv == 4:
-        ipv_part = ' | grep --color=never -v -e "tcp6" -e "udp6"'
+        ipv_part = '| grep --color=never -v -e "tcp6" -e "udp6"'
     elif ipv == 6:
-        ipv_part = ' | grep --color=never -e "tcp6" -e "udp6"'
+        ipv_part = '| grep --color=never -e "tcp6" -e "udp6"'
     else:
         ipv_part = ""
-    return "netstat -lnp{transport:s}".format(
-        ipv=ipv_part,
+    return "netstat -lnp{transport:s} {ipv:s} {port:s}".format(
         transport=transport[0].lower() if transport else "tu",
-        port=' | grep --color=never ":{:d}"'.format(port) if port else "",
+        ipv=ipv_part,
+        port='| grep --color=never ":{:d}"'.format(port) if port else "",
     )
 
 
