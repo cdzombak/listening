@@ -1,0 +1,6 @@
+-s dir
+--name listening
+--description "List processes listening for network connections"
+--url "https://github.com/cdzombak/listening"
+--maintainer "Chris Dzombak <https://www.dzombak.com>"
+--license LGPL3
