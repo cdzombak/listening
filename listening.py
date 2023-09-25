@@ -54,7 +54,7 @@ if __name__ == "__main__":
         "--port",
         type=int,
         default=None,
-        help="Filter to processes listening on the given port. Default: none (all).",
+        help="Filter to processes listening on the given port. Default: none (all ports).",
     )
     parser.add_argument(
         "-t",
