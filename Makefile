@@ -20,6 +20,7 @@ clean: ## Remove build products (./out)
 build: ## Build for all supported platforms & architectures to ./out
 	mkdir -p out
 	cp ./listening.py ./out/${BIN_NAME}-${BIN_VERSION}-all
+	chmod 0555 ./out/${BIN_NAME}-${BIN_VERSION}-all
 	sed -i 's/__LISTENING_VERSION__ = "<dev>"/__LISTENING_VERSION__ = "${BIN_VERSION}"/g' ./out/${BIN_NAME}-${BIN_VERSION}-all
 
 .PHONY: package
