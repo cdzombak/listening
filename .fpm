@@ -4,3 +4,5 @@
 --url "https://github.com/cdzombak/listening"
 --maintainer "Chris Dzombak <https://www.dzombak.com>"
 --license LGPL3
+--depends grep
+--depends python3
