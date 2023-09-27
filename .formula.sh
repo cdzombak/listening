@@ -16,7 +16,7 @@ cat << EOF
 
 # This file was automatically generated. DO NOT EDIT.
 class Listening < Formula
-  desc "List processes listening for network connections."
+  desc "List processes listening for network connections"
   homepage "https://github.com/cdzombak/listening"
   url "https://github.com/cdzombak/listening/releases/download/v${FORMULA_VERSION_NO_V}/listening-${FORMULA_VERSION_NO_V}-all.tar.gz"
   sha256 "${FORMULA_TGZ_SHA256}"
