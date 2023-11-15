@@ -60,7 +60,7 @@ cp out/listening-[VERSION]-all $INSTALL_DIR/listening
 
 ## About
 
-- Issues: https://github.com/cdzombak/listening/issues/new
+- Issues: [github.com/cdzombak/listening/issues](https://github.com/cdzombak/listening/issues)
 - Author: [Chris Dzombak](https://www.dzombak.com)
   - [GitHub: @cdzombak](https://www.github.com/cdzombak)
 

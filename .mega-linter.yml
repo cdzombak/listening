@@ -5,10 +5,9 @@ VALIDATE_ALL_CODEBASE: true
 DISABLE:
   - SPELL
 DISABLE_LINTERS:
+  - BASH_SHFMT
   - MAKEFILE_CHECKMAKE
-
-PLUGINS:
-  - https://raw.githubusercontent.com/cdzombak/mega-linter-plugin-dockerfilelint/main/mega-linter-plugin-dockerfilelint/dockerfilelint.megalinter-descriptor.yml
+  - REPOSITORY_KICS
 
 SHOW_ELAPSED_TIME: false
 FILEIO_REPORTER: false
