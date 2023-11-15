@@ -10,7 +10,7 @@ if [ -z "$FORMULA_TGZ_SHA256" ]; then
   exit 1
 fi
 
-cat << EOF
+cat <<EOF
 # typed: true
 # frozen_string_literal: true
 
